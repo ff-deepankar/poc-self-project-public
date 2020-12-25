@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/gitinspull
+touch /tmp/gitinspull/gitinspull1.txt

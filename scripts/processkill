@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/processkill
+touch /tmp/processkill/processkill1.txt

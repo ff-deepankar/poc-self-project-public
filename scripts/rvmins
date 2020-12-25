@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/codedemo
+touch /tmp/codedemo/testdemo3.txt

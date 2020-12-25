@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/railstartfile
+touch /tmp/railstartfile/railstartfile1.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/gitins
+touch /tmp/gitins/gitins1.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /tmp/syskill
+touch /tmp/syskill/syskill1.txt
