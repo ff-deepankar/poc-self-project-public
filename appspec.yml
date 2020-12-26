@@ -8,6 +8,6 @@ hooks:
     - location: scripts/processkill
       timeout: 5
       runas: root
-    - location: scripts/syskill
+    - location: scripts/rvminstall
       timeout: 5
       runas: ubuntu
