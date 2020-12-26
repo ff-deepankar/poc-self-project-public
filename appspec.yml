@@ -11,24 +11,3 @@ hooks:
     - location: scripts/syskill
       timeout: 5
       runas: ubuntu
-  BeforeInstall:
-    - location: scripts/gitins
-      timeout: 20
-      runas: ubuntu
-    - location: scripts/gitinspull
-      timeout: 5
-      runas: ubuntu
-  AfterInstall:
-    - location: scripts/rvminst  
-      timeout: 5
-      runas: root
-    - location: scripts/rvminstall
-      timeout:
-      runas:
-  ApplicationStart:
-    - location: scripts/railstart
-      timeout: 5
-      runas: root
-    - location: scripts/railstartfile
-      timeout: 3
-      runas: ubuntu
