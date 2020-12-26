@@ -5,9 +5,9 @@ files:
     destination: /var/www/poc-fitterfly-backend/
 hooks:
   ApplicationStop:
-    - location: scripts/processkill
+    - location: scripts/processkill.sh
       timeout: 5
       runas: root
-    - location: scripts/rvminstall
+    - location: scripts/rvminstall.sh
       timeout: 5
       runas: ubuntu
