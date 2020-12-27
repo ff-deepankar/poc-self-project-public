@@ -7,8 +7,6 @@ files:
     pattern: "**"
     owner: ubuntu
     mode: 755
-    type:
-      - file
 hooks:
   ApplicationStop:
     - location: scripts/processkill.sh
