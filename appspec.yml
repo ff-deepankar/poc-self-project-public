@@ -3,6 +3,12 @@ os: linux
 files:
   - source: /
     destination: /var/www/poc-fitterfly-backend/
+  - object: /var/www/poc-fitterfly-backend
+    pattern: "**"
+    owner: ubuntu
+    mode: 755
+    type:
+      - file
 hooks:
   ApplicationStop:
     - location: scripts/processkill.sh
